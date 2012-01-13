@@ -1,0 +1,33 @@
+/* $Id: styles.css,v 1.1.2.2.2.1 2011/01/11 01:08:49 dvessel Exp $ */
+
+
+body{ text-align: center;}
+#wrapper{margin: 0 auto; text-align: left;}
+
+#site-header{}
+
+h1#site-name {
+  margin-bottom: 0;
+}
+
+#block-system-user-menu h2{display: none;}
+#block-system-user-menu li{display: inline;}
+
+#footer {border: 1px solid red;}
+
+#site-header,
+#site-subheader,
+#footer-region,
+.column,
+.node,
+.comment,
+.block {
+  margin-bottom: 1.5em;
+}
+
+ul.main-menu,
+ul.secondary-menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
