@@ -2,7 +2,8 @@ name = Annotate
 description = "Allows user to annotate nodes."
 package = Pro Drupal Development
 core = 7.x
-files[] = annotate.module
-files[] = annotate.install
-files[] = annotate.admin.inc
-configure=admin/config/content/annotate/settings
+
+;files[] = annotate.module
+;files[] = annotate.install
+;files[] = annotate.admin.inc
+;configure=admin/config/content/annotate/settings

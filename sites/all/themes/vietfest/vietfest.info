@@ -1,0 +1,26 @@
+name        = Vietfest
+description = The official theme for Viet Fest.
+screenshot  = images/home.png
+core        = 7.x
+engine      = phptemplate
+
+; Stylesheets. Anything within the "framework" folder will be placed before all others.
+stylesheets[all][] = css/framework/reset.css
+stylesheets[all][] = css/framework/text.css
+stylesheets[all][] = css/framework/960.css
+stylesheets[all][] = css/framework/debug.css
+
+; Theme specific styles. Any sub-themes should override this.
+stylesheets[all][] = css/styles.css
+
+regions[top_nav]         = Top Nav
+regions[header]         = Header
+regions[search_box]     = Search Box
+regions[highlighted]    = Highlight
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer]         = Footer
+
+; features[] = favicon
