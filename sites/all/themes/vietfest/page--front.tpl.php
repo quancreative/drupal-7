@@ -1,5 +1,4 @@
 
-
 <?php include 'includes/top-nav.php'; ?>
 
 <div id="wrapper">
@@ -24,11 +23,10 @@
                     <div class="slider-wrapper theme-default">
                         <div class="ribbon"></div>
                         <div id="slider" class="nivoSlider">
-                            <img src="<?php print $directory;?>/images/home/slideshow/2.png" alt="" />
+                            <a href="<?php print $front_page . "/event"; ?>"><img src="<?php print $directory;?>/images/home/slideshow/dragon.jpg" alt="VietFest Coming in May 2012" /></a>
                             <img src="<?php print $directory;?>/images/home/slideshow/1.png" alt="" />
                             <img src="<?php print $directory;?>/images/home/slideshow/3.png" alt="" />
                         </div>
-                        
                     </div>
                 </div>
     
@@ -73,6 +71,10 @@
 <script type="text/javascript" src="<?php print $directory;?>/js/jquery.nivo.slider.pack.js"></script>
 <script type="text/javascript">
 $(window).load(function() {
-    $('#slider').nivoSlider();
+    $('#slider').nivoSlider(
+        {
+            pauseTime : 4000
+        }
+    );
 });
 </script>

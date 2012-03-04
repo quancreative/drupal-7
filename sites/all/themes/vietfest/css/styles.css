@@ -48,6 +48,7 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 32px n
     display: block;
     margin: 0;
     }
+    
 #main-menu li{
     float: left;
     font-size: 1.25em;
