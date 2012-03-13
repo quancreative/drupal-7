@@ -24,7 +24,7 @@
                         <div class="ribbon"></div>
                         <div id="slider" class="nivoSlider">
                             <a href="<?php print $front_page . "/event"; ?>"><img src="<?php print $directory;?>/images/home/slideshow/dragon.jpg" alt="VietFest Coming in May 2012" /></a>
-                            <img src="<?php print $directory;?>/images/home/slideshow/1.png" alt="" />
+                            <img src="<?php print $directory;?>/images/home/slideshow/father_and_daughter.jpg" alt="Father and Daughter" />
                             <img src="<?php print $directory;?>/images/home/slideshow/3.png" alt="" />
                         </div>
                     </div>
@@ -34,6 +34,24 @@
                   <h2 class="title" id="page-title"><?php print $title; ?></h2>
                 <?php endif; ?>
                 <?php print render($page['content']); ?>
+                
+                <div class="box-6">
+                    <h2>Location</h2>
+                    <iframe width="450" height="409" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;safe=active&amp;ie=UTF8&amp;q=george+mason+university&amp;fb=1&amp;gl=us&amp;hq=george+mason+university&amp;hnear=0x89b645fed4c0731d:0xbf8c913c6a96c41e,Fairfax,+VA+22033&amp;cid=0,0,8480217559846663912&amp;t=m&amp;ll=38.831518,-77.304783&amp;spn=0.00585,0.009656&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?hl=en&amp;safe=active&amp;ie=UTF8&amp;q=george+mason+university&amp;fb=1&amp;gl=us&amp;hq=george+mason+university&amp;hnear=0x89b645fed4c0731d:0xbf8c913c6a96c41e,Fairfax,+VA+22033&amp;cid=0,0,8480217559846663912&amp;t=m&amp;ll=38.831518,-77.304783&amp;spn=0.00585,0.009656&amp;z=16&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                </div>
+                
+                <div class="box-6 box-last">
+                    <h2>Our Friends</h2>
+                    <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) return;
+                          js = d.createElement(s); js.id = id;
+                          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                        <fb:like-box href="http://www.facebook.com/pages/VietFest-2012/304220736279418" width="450" height="409" show_faces="true" border_color="light gray" stream="false" header="false"></fb:like-box>
+               </div>                
                 
             </div>
             
