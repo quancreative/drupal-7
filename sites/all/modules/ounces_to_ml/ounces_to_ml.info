@@ -1,0 +1,5 @@
+; $Id$
+name = "Ounces to milliliters"
+description = "Accepts a volume in ounces and delivers its equivalent in milliliters."
+core = 7.x
+

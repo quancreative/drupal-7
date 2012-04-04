@@ -1,0 +1,67 @@
+<?php
+// $Id$
+
+/**
+ * @file
+ * The Ounces to Milliliters module.
+ *
+ * This is a simple example module that creates a block where the user
+ * can enter a value in ounces and receive the equivalent in milliliters.
+ * Created for the course "Drupal 7 Essential Training" on lynda.com.
+ * Thanks to Chris Shattuck for his help.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function ounces_to_ml_menu() {
+  $items = array();
+  $items['convert'] = array(
+    'title' => 'Convert ounces to milliliters',
+    'page callback' => 'ounces_to_ml_page',
+    'access arguments' => array('view content')
+    );
+  return $items;
+}
+
+/**
+ * Build a form containing:
+ *   (1) a space to input a volume in U.S. fluid ounces, and
+ *   (2) a submit ("Convert") button.
+ */
+function ounces_to_ml_form($form, &$form_state) { 
+  $form['ounces'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Ounces'),
+    '#size' => 5,
+    '#maxlength' => 5,
+    '#description' => t('The number of ounces to convert to milliliters'),
+  );
+
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Convert'),
+  );
+
+  return $form;
+}
+
+/**
+ * Present a page containing the form. This function was called
+ * in the ounces_to_ml_menu() function.
+ */
+function ounces_to_ml_page() {
+  return drupal_get_form('ounces_to_ml_form');
+}
+
+/**
+ * Deliver the results of the calculation in Drupal's "message" area.
+ */
+function ounces_to_ml_form_submit($form, &$form_state) {
+  $output = (
+    $form_state['values']['ounces'] . 
+    ' U.S. fluid ounces is approximately ' . 
+    round($form_state['values']['ounces'] * 29.57353) . 
+    ' milliliters.');
+  drupal_set_message($output);
+}

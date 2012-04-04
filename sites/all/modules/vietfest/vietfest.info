@@ -1,0 +1,6 @@
+; $Id$
+name = VietFest
+description = VietFest module
+package = VietFest
+core = 7.x
+

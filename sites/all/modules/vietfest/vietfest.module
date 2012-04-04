@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function vietfest_menu()
+{
+    $items = array();
+    $items['photo'] = array(
+        'title' => 'Photo page',
+        'page callback' => 'photo_page',
+        'access arguments' => array('view content'),
+    );
+    
+    return $items;
+}
+
+function photo_form($form, &$form_state)
+{
+    $form['photo'] = array(
+        '#type' => 'textfield',
+        '#title' => t('Photo'),
+        '#size' => 5,
+        '#maxlength' => 5,
+        'description' => t('Upload the photo'),
+    );
+    
+    $form['submit'] = array(
+        '#type' => 'submit',
+        '#value' => t('Convert'),
+    );
+}
+
+function photo_page()
+{
+    // return drupal_get_form('photo_form');
+    return 'hello world';
+}
+
+/**
+ * Deliver the results of the calculation in Drupal's "message" area.
+ */
+function photo_page_submit($form, &$form)
+{
+    $output = (
+        $form_state['value']['ounce']. 'U.S. fluid ounce is approximately'
+    );
+    
+    drupal_set_message($output);
+}
+

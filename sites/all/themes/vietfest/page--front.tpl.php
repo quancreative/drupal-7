@@ -24,8 +24,8 @@
                         <div class="ribbon"></div>
                         <div id="slider" class="nivoSlider">
                             <a href="<?php print $front_page . "/event"; ?>"><img src="<?php print $directory;?>/images/home/slideshow/dragon.jpg" alt="VietFest Coming in May 2012" /></a>
+                            <img src="<?php print $directory;?>/images/home/slideshow/featuring_singers.jpg" alt="Featuring Popular Singers Mai Tiến Dũng and Tóc Tiên, " />
                             <img src="<?php print $directory;?>/images/home/slideshow/father_and_daughter.jpg" alt="Father and Daughter" />
-                            <img src="<?php print $directory;?>/images/home/slideshow/3.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -61,21 +61,28 @@
     <div class="sponsor-container container-12 clearfix">
             
         <div class="grid-12 clearfix">
-            <h2>Sponsors</h2>
-       
-            <div class="sponsor">
-                <a href="#"><img src="<?php print $directory;?>/images/sponsors/nha_hang_tay_do.jpg" alt="Nha Hang Tay Do"/></a>
-            </div>
+            <h2>Sponsors</h2>       
+           
             <div class="sponsor">
                 <a href="http://www.wellsfargo.com"><img src="<?php print $directory;?>/images/sponsors/wellsfargo.jpg" alt="Wells Fargo"/></a>
-            </div>
-            <div class="sponsor">
-                <a href="http://acnwellness.blogspot.com/"><img src="<?php print $directory;?>/images/sponsors/acn_wellness.jpg" alt="ACN Wellness Center"/></a>
-            </div>
-          
-            <div class="sponsor">
-                <a href="http://www.edencenter.com/"><img src="<?php print $directory;?>/images/sponsors/eden_center.jpg" alt="Eden Center"/></a>
-            </div>
+            </div>         
+           
+			<div class="sponsor">
+                <a href="http://www.massmutual.com/home?gclid=CPjqmLyVlK8CFUMTNAodYFJr0Q"><img src="<?php print $directory;?>/images/sponsors/Mass_Mutual.jpg" alt="Mass Mutual" style="width:250px;height:115px"/></a>
+            </div>  
+			
+			<div class="sponsor">
+                <a href="http://www.pragmatics.com/"><img src="<?php print $directory;?>/images/sponsors/pragmatics.jpg" alt="Pragmatics" style="height:115px"/></a>
+            </div> 
+			
+			<div class="sponsor">
+                <a href="http://www.vabadc.com/"><img src="<?php print $directory;?>/images/sponsors/vabadc.jpg" alt="" style="width:115px;height:115px"/></a>
+            </div> 
+			
+			<div class="sponsor">
+                <a href="http://edencenter.com/portfolio/vy-bistro/"><img src="<?php print $directory;?>/images/sponsors/p_vybistro.jpg" alt="" style="width:115px;height:115px"/></a>
+            </div> 
+			
            
           </div>
         <div class="sponsor-container-footer"></div>
@@ -91,7 +98,7 @@
 $(window).load(function() {
     $('#slider').nivoSlider(
         {
-            pauseTime : 4000
+            pauseTime : 8000
         }
     );
 });
