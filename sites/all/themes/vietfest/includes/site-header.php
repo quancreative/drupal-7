@@ -22,5 +22,5 @@
 <?php endif; ?>
 
 <div class="main-menu-container container-12 clearfix">
-    <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
-</div><!-- end .main-nav-container -->
+<?php print render($vietfest_menu); ?>
+</div><!-- end .main-nav-container -->

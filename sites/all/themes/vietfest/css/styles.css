@@ -30,7 +30,9 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 32px n
     h1#logo a{display: block; width: 407px; height: 89px; background: url(../images/viet_fest.gif) no-repeat; text-indent: -9999px;}
     #site-slogan{display: none;}
 
-#main-menu{ 
+/* Main menu */
+.main-menu-container #block-system-main-menu { margin-bottom: 0;}
+.main-menu-container .menu{ 
     background: #d1d1d1; 
     background: -moz-linear-gradient(top, #f2f2f2 0%, #d1d1d1 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#d1d1d1));
@@ -45,7 +47,7 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 32px n
     margin: 0;
 }
     
-#main-menu li{
+.main-menu-container .menu li{
     float: left;
     font-size: 1.25em;
     font-weight: 700;
@@ -56,12 +58,12 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 32px n
     position: relative;
     text-transform: uppercase;
 }
-#main-menu li a{ color:#bf4b11; display:block; padding:13px 20px; text-align:center; text-decoration:none;}
-#main-menu li.active-trail a,
-#main-menu li a.active,
-#main-menu li a:hover,
-#main-menu li a:focus,
-#main-menu li:hover a {
+.main-menu-container .menu li a{ color:#bf4b11; display:block; padding:13px 20px; text-align:center; text-decoration:none;}
+.main-menu-container .menu li.active-trail a,
+.main-menu-container .menu li a.active,
+.main-menu-container .menu li a:hover,
+.main-menu-container .menu li a:focus,
+.main-menu-container .menu li:hover a {
     background: #f2f2f2; /* Old browsers */
     background: -moz-linear-gradient(top, #f2f2f2 0%, #ececec 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#ececec)); /* Chrome,Safari4+ */
@@ -77,6 +79,52 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 32px n
     color: #9f2806;
 }
 
+/* 
+ *  Submenu
+ */
+.main-menu-container .menu li ul {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    height: auto;
+    left: -999em;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    width: 200px;
+    z-index: 1000;
+}
+.main-menu-container .menu li:hover > ul {
+    display: block;
+    left: 0;
+}
+.main-menu-container .menu li ul li {
+    float: none;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+.main-menu-container .menu li ul li a, 
+.main-menu-container .menu li.active-trail ul li a, 
+.main-menu-container .menu li:hover ul li a {
+    border: medium none;
+    display: block;
+    padding: 9px 16px;
+    text-align: left;
+}
+.main-menu-container .menu li ul li a:hover,
+ .main-menu-container .menu li.active-trail ul li a.active {
+    background: #9f2806;
+    border: medium none;
+    color: #FFFFFF;
+    padding: 9px 16px;
+}
+
+/*
+ * Main container
+ */
 .main-content-container{background: white; padding: 10px 0;}
     .content-box { padding: 10px; font-size: 14px;}
     .content-box ul {padding-left: 14px;}

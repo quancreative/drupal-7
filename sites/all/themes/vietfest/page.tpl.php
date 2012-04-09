@@ -29,15 +29,12 @@
                   <h2 class="title" id="page-title"><?php print $title; ?></h2>
                 <?php endif; ?>
     			<?php print render($page['content']); ?>
-    			
     			<style type="text/css">
             
         </style>
     			
     		</div>
-    		
-    		
-                	
+    		    	
 	    </div>
 	</div><!-- end .main-content-container -->
 

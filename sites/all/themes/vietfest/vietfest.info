@@ -15,6 +15,7 @@ stylesheets[all][] = css/styles.css
 
 regions[top_nav]         = Top Nav
 regions[header]         = Header
+regions[main_menu] 		= Main Menu
 regions[search_box]     = Search Box
 regions[highlighted]    = Highlight
 regions[help]           = Help
