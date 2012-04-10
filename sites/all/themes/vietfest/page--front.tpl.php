@@ -74,7 +74,7 @@
 				  <area shape="rect" coords="720,120,887,160" href="http://www.vabadc.com" alt="VA BA DC" />				  
 				  <area shape="rect" coords="12,161,360,240" href="http://www.massmutual.com/home?gclid=CPjqmLyVlK8CFUMTNAodYFJr0Q" alt="Mass Mutual" />
 				  <area shape="rect" coords="380,180,555,244" href="http://www.yelp.com/biz/banh-cuon-thang-long-falls-church" alt="Banh cuong thang long" />
-				  <area shape="rect" coords="580,180,700,244" href="http://www.vabadc.com" alt="VA BA DC" />
+				  <area shape="rect" coords="580,180,700,244" href="http://mrellc.net/" alt="MRE" />
 				  <area shape="rect" coords="710,200,890,244" href="http://edencenter.com/portfolio/vy-bistro" alt="Viet Bistro" />				  
 				</map>
             </div>
@@ -117,11 +117,11 @@
 				  <area shape="rect" coords="300,0,640,80" href="http://www.mauvsa.org/" alt="MAUVSA" />
 				  <area shape="rect" coords="670,0,900,80" href="http://www.anhoi.com/" alt="Anh Oi" />
 				  <area shape="rect" coords="0,100,240,200" href="http://www.ketdoan.org/" alt="Ket Doan" />
-				  <area shape="rect" coords="245,100,440,200" href="hhttp://www.fvcbank.com/" alt="VNDO" />
+				  <area shape="rect" coords="245,100,440,200" href="http://vndcradio.com/" alt="Viet DC Radio" />
 				  <area shape="rect" coords="460,100,600,200" href="http://www.vnps.net/" alt="VNPS" />
 				  <area shape="rect" coords="600,100,730,200" href="http://viettoon.net/" alt="Viet Toon" />				  
 				  <area shape="rect" coords="730,100,900,200" href="http://www.galeriebrigitte.co" alt="Galerie Brigitte" />
-				  <area shape="rect" coords="0,210,180,340" href="http://www.yelp.com/biz/banh-cuon-thang-long-falls-church" alt="Nha Viet Nam" />
+				  <area shape="rect" coords="0,210,180,340" href="http://www.nhavietnam.org/" alt="Nha Viet Nam" />
 				  <area shape="rect" coords="180,210,480,260" href="http://www.eastwind.biz" alt="East Wind Reastaurant" />
 				  				  
 				</map>
