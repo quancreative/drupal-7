@@ -73,9 +73,10 @@
 				  <area shape="rect" coords="580,110,700,164" href="http://www.pragmatics.com" alt="Pragmatics" />
 				  <area shape="rect" coords="720,120,887,160" href="http://www.vabadc.com" alt="VA BA DC" />				  
 				  <area shape="rect" coords="12,161,360,240" href="http://www.massmutual.com/home?gclid=CPjqmLyVlK8CFUMTNAodYFJr0Q" alt="Mass Mutual" />
-				  <area shape="rect" coords="380,180,555,244" href="http://www.yelp.com/biz/banh-cuon-thang-long-falls-church" alt="Banh cuong thang long" />
-				  <area shape="rect" coords="580,180,700,244" href="http://mrellc.net/" alt="MRE" />
-				  <area shape="rect" coords="710,200,890,244" href="http://edencenter.com/portfolio/vy-bistro" alt="Viet Bistro" />				  
+				  <area shape="rect" coords="370,160,480,260" href="http://edencenter.com/portfolio/vy-bistro/" alt="Vy Bistro" />
+				  <area shape="rect" coords="480,165,610,260" href="http://marylandlivecasino.com/" alt="Maryland Casino" />				  
+				  <area shape="rect" coords="610,165,740,260" href="http://mrellc.net/" alt="MRE" />
+				  <area shape="rect" coords="740,165,900,260" href="http://www.yelp.com/biz/banh-cuon-thang-long-falls-church" alt="Banh cuong thang long" />				  
 				</map>
             </div>
             
@@ -107,7 +108,7 @@
     </div><!-- end .sponsor-container -->
 
 	<div class="partner-container container-12 clearfix">
-            
+        <div class="grid-12 clearfix">
   		<h2>Partners</h2>       
             <div class="partner">
    	           <img src="./sites/all/themes/vietfest/images/sponsors/Partner Logos.png" alt="Sponsors" usemap="#partnerMap" />
@@ -126,6 +127,7 @@
 				  				  
 				</map>
             </div>
+        </div>
         <div class="partner-container-footer"></div>
     </div><!-- end .sponsor-container -->
     

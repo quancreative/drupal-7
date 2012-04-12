@@ -129,10 +129,9 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
     .content-box { padding: 10px; font-size: 14px;}
     .content-box ul {padding-left: 14px;}
     .content-box .box-last {margin-right: 0;}
-        .box-10, .box-6, .box-5, .box-4, .box-3{margin: 0 20px 0 0; width: 300px; display: inline; float: left; position: relative;}
+        .box-10, .box-6, .box-4, .box-3{margin: 0 20px 0 0; width: 300px; display: inline; float: left; position: relative;}
         .box-10 { width: 685px;}
-        .box-6 { width: 450px;}
-        .box-5 { width: 200px;}
+        .box-6 { width: 450px;}        
         .box-4 { width: 292px;}
         .box-3 {width: 215px;}
 
