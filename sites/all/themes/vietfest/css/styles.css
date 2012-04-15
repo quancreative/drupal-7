@@ -9,11 +9,7 @@ h3{ color : #666;}
 ul.main-menu,
 ul.secondary-menu { display: block; margin: 0; padding: 0; }
 
-<<<<<<< HEAD
-body{ text-align: center; background: url(../images/body_bkgd.jpg) center 32px no-repeat #fafaf2;}
-=======
 body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px no-repeat #fafaf2;}
->>>>>>> 3f56d9b67ecc323056749b1e25c1fa2152b65c06
 
 #site-header,
 #site-subheader,
@@ -78,8 +74,8 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
     background: linear-gradient(top, #f2f2f2 0%,#ececec 100%); /* W3C */
     border-right: 1px solid #FFF;
     border-left: 1px solid #FFF;
-    padding-left: 19px;
-    padding-right: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #9f2806;
 }
 
