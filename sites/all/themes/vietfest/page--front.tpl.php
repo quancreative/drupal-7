@@ -41,7 +41,7 @@
                 </div>
                 
                 <div class="box-6 box-last">
-                    <h2>Our Friends</h2>
+                    <h2>Our Friends</h2>   
                     <div id="fb-root"></div>
                         <script>(function(d, s, id) {
                           var js, fjs = d.getElementsByTagName(s)[0];
@@ -51,6 +51,9 @@
                           fjs.parentNode.insertBefore(js, fjs);
                         }(document, 'script', 'facebook-jssdk'));</script>
                         <fb:like-box href="http://www.facebook.com/pages/VietFest-2012/304220736279418" width="450" height="409" show_faces="true" border_color="light gray" stream="false" header="false"></fb:like-box>
+                        <a href="https://twitter.com/VietFest" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @VietFest</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
                </div>                
                 
             </div>
