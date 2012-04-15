@@ -41,10 +41,26 @@
                 </div>
                 
                 <div class="box-6 box-last">
+<<<<<<< HEAD
                     <h2>Our Friends</h2>
                     
                     <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com/pages/VietFest-2012/304220736279418&amp;width=450&amp;connections=28&amp;stream=false&amp;header=false&amp;height=409" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:409px;" allowTransparency="true"></iframe>
                   
+=======
+                    <h2>Our Friends</h2>   
+                    <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) return;
+                          js = d.createElement(s); js.id = id;
+                          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                        <fb:like-box href="http://www.facebook.com/pages/VietFest-2012/304220736279418" width="450" height="409" show_faces="true" border_color="light gray" stream="false" header="false"></fb:like-box>
+                        <a href="https://twitter.com/VietFest" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @VietFest</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+>>>>>>> 74fc6ff7d3147761e7c8cb2171d6075aebb200a6
                </div>                
                 
             </div>
