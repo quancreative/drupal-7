@@ -118,7 +118,9 @@
 				  <area shape="rect" coords="730,100,900,200" href="http://www.galeriebrigitte.co" alt="Galerie Brigitte" />
 				  <area shape="rect" coords="0,210,180,340" href="http://www.nhavietnam.org/" alt="Nha Viet Nam" />
 				  <area shape="rect" coords="180,210,480,260" href="http://www.eastwind.biz" alt="East Wind Reastaurant" />
-				  				  
+				  <area shape="rect" coords="480,210,630,260" href="http://www.sbtndc.com/" alt="SBTN-DC" />
+				  <area shape="rect" coords="180,270,420,330" href="http://www.vietmymagazine.net/" alt="Viet My" />
+				  <area shape="rect" coords="420,270,600,330" href="http://tunein.com/radio/Radio-Viet-Nam-Hai-Ngoai-s116579/" alt="VNHN" />				  				  
 				</map>
             </div>
         </div>
