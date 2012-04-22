@@ -24,7 +24,6 @@
                         <div class="ribbon"></div>
                         <div id="slider" class="nivoSlider">
                             <a href="<?php print $front_page . "/event"; ?>"><img src="<?php print $directory;?>/images/home/slideshow/dragon.jpg" alt="VietFest Coming in May 2012" /></a>
-                            <img src="<?php print $directory;?>/images/home/slideshow/featuring_singers.jpg" alt="Featuring Popular Singers Mai Tiến Dũng and Tóc Tiên, " />
                             <img src="<?php print $directory;?>/images/home/slideshow/father_and_daughter.jpg" alt="Father and Daughter" />
                         </div>
                     </div>

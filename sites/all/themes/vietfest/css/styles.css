@@ -9,7 +9,7 @@ h3{ color : #666;}
 ul.main-menu,
 ul.secondary-menu { display: block; margin: 0; padding: 0; }
 
-body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px no-repeat #fafaf2;}
+body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px no-repeat #f9f4ca;}
 
 #site-header,
 #site-subheader,
@@ -58,7 +58,7 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
     position: relative;
     text-transform: uppercase;
 }
-.main-menu-container .menu li a{ color:#bf4b11; display:block; padding:13px 20px; text-align:center; text-decoration:none;}
+.main-menu-container .menu li a{ color:#bf4b11; display:block; padding:13px 17px; text-align:center; text-decoration:none;}
 .main-menu-container .menu li.active-trail a,
 .main-menu-container .menu li a.active,
 .main-menu-container .menu li a:hover,
@@ -74,8 +74,8 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
     background: linear-gradient(top, #f2f2f2 0%,#ececec 100%); /* W3C */
     border-right: 1px solid #FFF;
     border-left: 1px solid #FFF;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
     color: #9f2806;
 }
 
@@ -157,6 +157,7 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
 .staff-profile {border-bottom: 1px solid #EBEBEB; clear: both; margin-bottom: 20px;}
 .staff-profile h4{margin-bottom: 4px;}
 .staff-title {font: oblique 1.167em "Georgia", serif; color: #CCC;}
+.staff-profile img{ margin: 7px 20px 20px 0; border: 4px solid #DCDCDE; float: left;}
 
 /* Sponsors page */
 .column{margin: 0 0 20px 0; width: 16.8%; display: inline; float: left; position: relative; text-align: center; border-bottom: 1px solid #EBEBEB; background: #f5f5f5;}
