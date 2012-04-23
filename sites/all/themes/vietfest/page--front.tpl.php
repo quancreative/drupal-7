@@ -24,6 +24,7 @@
                         <div class="ribbon"></div>
                         <div id="slider" class="nivoSlider">
                             <a href="<?php print $front_page . "/event"; ?>"><img src="<?php print $directory;?>/images/home/slideshow/dragon.jpg" alt="VietFest Coming in May 2012" /></a>
+                            <a href="<?php print $front_page . "/event"; ?>"><img src="<?php print $directory;?>/images/home/slideshow/featuring_singers.jpg" alt="Come taste Vietnamese home-style cuisine" /></a>
                             <img src="<?php print $directory;?>/images/home/slideshow/father_and_daughter.jpg" alt="Father and Daughter" />
                         </div>
                     </div>
@@ -36,7 +37,7 @@
                 
                 <div class="box-6">
                     <h2>Location</h2>
-                    <iframe width="450" height="409" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;safe=active&amp;ie=UTF8&amp;q=george+mason+university&amp;fb=1&amp;gl=us&amp;hq=george+mason+university&amp;hnear=0x89b645fed4c0731d:0xbf8c913c6a96c41e,Fairfax,+VA+22033&amp;cid=0,0,8480217559846663912&amp;t=m&amp;ll=38.831518,-77.304783&amp;spn=0.00585,0.009656&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?hl=en&amp;safe=active&amp;ie=UTF8&amp;q=george+mason+university&amp;fb=1&amp;gl=us&amp;hq=george+mason+university&amp;hnear=0x89b645fed4c0731d:0xbf8c913c6a96c41e,Fairfax,+VA+22033&amp;cid=0,0,8480217559846663912&amp;t=m&amp;ll=38.831518,-77.304783&amp;spn=0.00585,0.009656&amp;z=16&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                    <iframe width="450" height="409" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4500+Patriot+Circle,+Fairfax,+VA,+22033+(George+Mason+University,+Lot+K)&amp;aq=&amp;sll=38.826737,-77.30974&amp;sspn=0.008676,0.01929&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=4500+Patriot+Cir,+Fairfax,+Virginia+22030&amp;t=m&amp;z=14&amp;ll=38.826745,-77.30975&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4500+Patriot+Circle,+Fairfax,+VA,+22033+(George+Mason+University,+Lot+K)&amp;aq=&amp;sll=38.826737,-77.30974&amp;sspn=0.008676,0.01929&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=4500+Patriot+Cir,+Fairfax,+Virginia+22030&amp;t=m&amp;z=14&amp;ll=38.826745,-77.30975" style="color:#0000FF;text-align:left">View Larger Map</a></small>
                 </div>
                 
                 <div class="box-6 box-last">
