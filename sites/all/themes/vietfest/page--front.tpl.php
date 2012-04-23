@@ -123,7 +123,7 @@
 				  <area shape="rect" coords="480,210,630,260" href="http://www.sbtndc.com/" alt="SBTN-DC" />
 				  <area shape="rect" coords="180,270,420,330" href="http://www.vietmymagazine.net/" alt="Viet My" />
 				  <area shape="rect" coords="420,270,600,330" href="http://tunein.com/radio/Radio-Viet-Nam-Hai-Ngoai-s116579/" alt="VNHN" />
-				  <area shape="rect" coords="625,200,730,290" href="Vietamcham.com" alt="VN American Chamber" />					  				  
+				  <area shape="rect" coords="625,200,730,290" href="http://www.vietamcham.com" alt="VN American Chamber" />					  				  
 				</map>
             </div>
         </div>
