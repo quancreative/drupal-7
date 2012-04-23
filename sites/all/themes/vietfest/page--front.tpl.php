@@ -65,13 +65,15 @@
 				  <area shape="rect" coords="160,72,410,155" href="http://www.metlife.com" alt="Met Life" />
 				  <area shape="rect" coords="421,0,567,155" href="http://www.bbt.com/" alt="BB&T" />
 				  <area shape="rect" coords="576,0,900,100" href="http://www.fvcbank.com/" alt="FVC Bank" />
-				  <area shape="rect" coords="580,110,700,164" href="http://www.pragmatics.com" alt="Pragmatics" />
-				  <area shape="rect" coords="720,120,887,160" href="http://www.vabadc.com" alt="VA BA DC" />				  
-				  <area shape="rect" coords="12,161,360,240" href="http://www.massmutual.com/home?gclid=CPjqmLyVlK8CFUMTNAodYFJr0Q" alt="Mass Mutual" />
+				  <area shape="rect" coords="580,110,700,130" href="http://www.pragmatics.com" alt="Pragmatics" />
+				  <area shape="rect" coords="720,120,887,130" href="http://www.vabadc.com" alt="VA BA DC" />
+				  <area shape="rect" coords="740,140,900,200" href="http://songquedeli.com" alt="Song Que Deli" />				  				  
+				  <area shape="rect" coords="12,161,280,240" href="http://www.massmutual.com/home?gclid=CPjqmLyVlK8CFUMTNAodYFJr0Q" alt="Mass Mutual" />
+				  <area shape="rect" coords="280,160,370 250" href="http://www.hotnjuicycrawfish.com/" alt="Hot and Juicy" />
 				  <area shape="rect" coords="370,160,480,260" href="http://edencenter.com/portfolio/vy-bistro/" alt="Vy Bistro" />
 				  <area shape="rect" coords="480,165,610,260" href="http://marylandlivecasino.com/" alt="Maryland Casino" />				  
 				  <area shape="rect" coords="610,165,740,260" href="http://mrellc.net/" alt="MRE" />
-				  <area shape="rect" coords="740,165,900,260" href="http://www.yelp.com/biz/banh-cuon-thang-long-falls-church" alt="Banh cuong thang long" />				  
+				  <area shape="rect" coords="770,200,900,260" href="http://www.yelp.com/biz/banh-cuon-thang-long-falls-church" alt="Banh cuong thang long" />				  
 				</map>
             </div>
             
@@ -121,7 +123,8 @@
 				  <area shape="rect" coords="180,210,480,260" href="http://www.eastwind.biz" alt="East Wind Reastaurant" />
 				  <area shape="rect" coords="480,210,630,260" href="http://www.sbtndc.com/" alt="SBTN-DC" />
 				  <area shape="rect" coords="180,270,420,330" href="http://www.vietmymagazine.net/" alt="Viet My" />
-				  <area shape="rect" coords="420,270,600,330" href="http://tunein.com/radio/Radio-Viet-Nam-Hai-Ngoai-s116579/" alt="VNHN" />				  				  
+				  <area shape="rect" coords="420,270,600,330" href="http://tunein.com/radio/Radio-Viet-Nam-Hai-Ngoai-s116579/" alt="VNHN" />
+				  <area shape="rect" coords="625,200,730,290" href="http://www.vietamcham.com" alt="VN American Chamber" />					  				  
 				</map>
             </div>
         </div>
