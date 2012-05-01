@@ -122,8 +122,9 @@
 				  <area shape="rect" coords="180,210,480,260" href="http://www.eastwind.biz" alt="East Wind Reastaurant" />
 				  <area shape="rect" coords="480,210,630,260" href="http://www.sbtndc.com/" alt="SBTN-DC" />
 				  <area shape="rect" coords="180,270,420,330" href="http://www.vietmymagazine.net/" alt="Viet My" />
-				  <area shape="rect" coords="420,270,600,330" href="http://tunein.com/radio/Radio-Viet-Nam-Hai-Ngoai-s116579/" alt="VNHN" />
-				  <area shape="rect" coords="625,200,730,290" href="http://www.vietamcham.com" alt="VN American Chamber" />					  				  
+				  <area shape="rect" coords="420,270,645,330" href="http://www.akaritutoring.com" alt="Arkari Tutoring" />
+				  <area shape="rect" coords="625,200,730,290" href="http://www.vietamcham.com" alt="VN American Chamber" />					
+				  <area shape="rect" coords="730,210,900,280" href="http://tunein.com/radio/Radio-Viet-Nam-Hai-Ngoai-s116579/" alt="VNHN" />  				  
 				</map>
             </div>
         </div>
