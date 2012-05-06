@@ -27,6 +27,7 @@ function vietfest_preprocess_page(&$variables) {
      }
     
     $variables['vietfest_menu'] = $main_menu;
+    $variables['vietfest_menu_footer'] = $main_menu;
 }
 
 /* Fix the horrid menu_tree theme function to clearfix since most LI's are floated */

@@ -17,22 +17,22 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
 .column,
 .node,
 .comment,
-.block {  margin-bottom: 1.5em;}
+.block { margin-bottom: 1.5em;}
 
 /* top-nav */
 #top-nav-container{background: #bf4b11; display: block; padding: 6px 0; height: 20px;}
     #top-nav a{color: white;}
     #block-system-user-menu li{display: inline;}
     
-#wrapper{margin: 0 auto; text-align: left;}
+#wrapper{text-align: left;}
 
 #site-header{}
-    h1#logo a{display: block; width: 407px; height: 89px; background: url(../images/viet_fest.gif) no-repeat; text-indent: -9999px;}
+    h1#logo a{display: block; width: 407px; height: 89px; background: no-repeat; text-indent: -9999px;}
     #site-slogan{display: none;}
 
 /* Main menu */
-.main-menu-container #block-system-main-menu { margin-bottom: 0;}
-.main-menu-container .menu{ 
+/*.main-menu-container #block-system-main-menu { margin-bottom: 0;}*/
+.main-menu-container ul{ 
     background: #d1d1d1; 
     background: -moz-linear-gradient(top, #f2f2f2 0%, #d1d1d1 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#d1d1d1));
@@ -47,7 +47,7 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
     margin: 0;
 }
     
-.main-menu-container .menu li{
+.main-menu-container ul li{
     float: left;
     font-size: 1.25em;
     font-weight: 700;
@@ -58,46 +58,54 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
     position: relative;
     text-transform: uppercase;
 }
-.main-menu-container .menu li a{ color:#bf4b11; display:block; padding:13px 17px; text-align:center; text-decoration:none;}
-.main-menu-container .menu li.active-trail a,
-.main-menu-container .menu li a.active,
-.main-menu-container .menu li a:hover,
-.main-menu-container .menu li a:focus,
-.main-menu-container .menu li:hover a {
+.main-menu-container li a {
+  color: #bf4b11;
+  display: block;
+  padding: 13px 17px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-menu-container li.active-trail a,
+.main-menu-container li a.active,
+.main-menu-container li a:hover,
+.main-menu-container li a:focus,
+.main-menu-container ul li:hover a {
     background: #f2f2f2; /* Old browsers */
     background: -moz-linear-gradient(top, #f2f2f2 0%, #ececec 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#ececec)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #f2f2f2 0%,#ececec 100%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(top, #f2f2f2 0%,#ececec 100%); /* Opera11.10+ */
     background: -ms-linear-gradient(top, #f2f2f2 0%,#ececec 100%); /* IE10+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
     background: linear-gradient(top, #f2f2f2 0%,#ececec 100%); /* W3C */
     border-right: 1px solid #FFF;
     border-left: 1px solid #FFF;
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-left: 16px;
+    padding-right: 16px;
     color: #9f2806;
 }
 
 /* 
- *  Submenu
+ *  Sub-menu
  */
-.main-menu-container .menu li ul {
-    background: none repeat scroll 0 0 #FFFFFF;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    height: auto;
-    left: -999em;
+.main-menu-container li ul {
+    background: #FFFFFF;
     margin: 0;
     padding: 5px;
-    position: absolute;
     width: 200px;
+    height: auto;
+    position: absolute;
+    left: -999em;
     z-index: 1000;
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,.8);
+    -moz-box-shadow: 0 3px 10px rgba(0,0,0,.8);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
-.main-menu-container .menu li:hover > ul {
+.main-menu-container ul li:hover > ul {
     display: block;
     left: 0;
 }
-.main-menu-container .menu li ul li {
+.main-menu-container li ul li {
     float: none;
     font-size: 14px;
     font-weight: 400;
@@ -106,16 +114,17 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
     padding: 0;
     text-transform: none;
 }
-.main-menu-container .menu li ul li a, 
-.main-menu-container .menu li.active-trail ul li a, 
-.main-menu-container .menu li:hover ul li a {
+.main-menu-container li ul li a, 
+.main-menu-container li.active-trail ul li a, 
+.main-menu-container li:hover ul li a {
     border: medium none;
     display: block;
     padding: 9px 16px;
     text-align: left;
+    color: #9f2806;
 }
-.main-menu-container .menu li ul li a:hover,
- .main-menu-container .menu li.active-trail ul li a.active {
+.main-menu-container li ul li a:hover,
+.main-menu-container li.active-trail ul li a.active {
     background: #9f2806;
     border: medium none;
     color: #FFFFFF;
@@ -147,7 +156,51 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
 
 #block-system-user-menu h2{display: none;}
 
-.footer-container { /* background: #edeae3; */}
+.footer-container { background: #363636; margin-top: 40px; padding-top: 40px; overflow: hidden;}
+
+/***** Footer Nav *****/
+.footer-nav ul.menu li {
+  float: left;
+  margin: 0 10px 15px 0;
+  list-style: none;
+  list-style-image: none;
+  font-size: 1.083em;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+}
+
+.footer-nav ul.menu li li {
+    float: none;
+    margin-right: 0px;
+    font-weight: normal;
+    width: 115px;
+    font-family: Arial,sans-serif;
+    font-size: .9em;
+    letter-spacing: 0.02em;
+    margin: 10px 15px 10px 0;
+    margin-bottom: 0px;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.footer-nav ul li.expanded,
+.footer-nav ul li.leaf {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.footer-nav li a,
+.footer-utility li a {
+  color: #ffffff;
+}
+
+.footer-nav li li a {
+  color: #179BCD;
+}
+.footer-nav li li a:hover, #footer-nav li li a:focus {
+  color: #7EDAF8;
+}
+
 
 /* Home page */
 #slider-group{}
@@ -184,8 +237,8 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
 /* Contact page */
 #staff-directory { width: 100%; border-collapse:collapse; }
 #staff-directory tr {border: 1px solid #EBEBEB;}
-#staff-directory th{ background: #ffd400; font-size: 16px; padding: 10px; text-align: left;}
-#staff-directory td { padding: 20px 10px; border-top: 1px solid #EBEBEB; margin: 0; }
+#staff-directory th{ background: #ffd400; font-size: 16px; padding: 10px 20px; text-align: left;}
+#staff-directory td { padding: 10px 20px; border-top: 1px solid #EBEBEB; margin: 0; }
 #staff-directory tr.even{ background: #F5F5F5;}
 
 /* Vendors page */

@@ -22,5 +22,5 @@
 <?php endif; ?>
 
 <div class="main-menu-container container-12 clearfix">
-<?php print render($vietfest_menu); ?>
+    <?php print render($vietfest_menu); ?>
 </div><!-- end .main-nav-container -->
