@@ -37,7 +37,7 @@
                 
                 <div class="box-6">
                     <h2>Location</h2>
-                    <iframe width="450" height="409" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4500+Patriot+Circle,+Fairfax,+VA,+22033+(George+Mason+University,+Lot+K)&amp;aq=&amp;sll=38.826737,-77.30974&amp;sspn=0.008676,0.01929&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=4500+Patriot+Cir,+Fairfax,+Virginia+22030&amp;t=m&amp;z=14&amp;ll=38.826745,-77.30975&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4500+Patriot+Circle,+Fairfax,+VA,+22033+(George+Mason+University,+Lot+K)&amp;aq=&amp;sll=38.826737,-77.30974&amp;sspn=0.008676,0.01929&amp;gl=us&amp;ie=UTF8&amp;hq=&amp;hnear=4500+Patriot+Cir,+Fairfax,+Virginia+22030&amp;t=m&amp;z=14&amp;ll=38.826745,-77.30975" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                    <iframe width="450" height="409" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;safe=active&amp;ie=UTF8&amp;q=george+mason+university&amp;fb=1&amp;gl=us&amp;hq=george+mason+university&amp;hnear=0x89b645fed4c0731d:0xbf8c913c6a96c41e,Fairfax,+VA+22033&amp;cid=0,0,8480217559846663912&amp;t=m&amp;ll=38.831518,-77.304783&amp;spn=0.00585,0.009656&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?hl=en&amp;safe=active&amp;ie=UTF8&amp;q=george+mason+university&amp;fb=1&amp;gl=us&amp;hq=george+mason+university&amp;hnear=0x89b645fed4c0731d:0xbf8c913c6a96c41e,Fairfax,+VA+22033&amp;cid=0,0,8480217559846663912&amp;t=m&amp;ll=38.831518,-77.304783&amp;spn=0.00585,0.009656&amp;z=16&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
                 </div>
                 
                 <div class="box-6 box-last">
@@ -64,16 +64,15 @@
 				  <area shape="rect" coords="160,0,410,70" href="http://www.statefarm.com/" alt="State Farm" />
 				  <area shape="rect" coords="160,72,410,155" href="http://www.metlife.com" alt="Met Life" />
 				  <area shape="rect" coords="421,0,567,155" href="http://www.bbt.com/" alt="BB&T" />
-				  <area shape="rect" coords="576,0,900,100" href="http://www.fvcbank.com/" alt="FVC Bank" />
-				  <area shape="rect" coords="580,110,700,130" href="http://www.pragmatics.com" alt="Pragmatics" />
-				  <area shape="rect" coords="720,120,887,130" href="http://www.vabadc.com" alt="VA BA DC" />
-				  <area shape="rect" coords="740,140,900,200" href="http://songquedeli.com" alt="Song Que Deli" />				  				  
-				  <area shape="rect" coords="12,161,280,240" href="http://www.massmutual.com/home?gclid=CPjqmLyVlK8CFUMTNAodYFJr0Q" alt="Mass Mutual" />
-				  <area shape="rect" coords="280,160,370 250" href="http://www.hotnjuicycrawfish.com/" alt="Hot and Juicy" />
-				  <area shape="rect" coords="370,160,480,260" href="http://edencenter.com/portfolio/vy-bistro/" alt="Vy Bistro" />
-				  <area shape="rect" coords="480,165,610,260" href="http://marylandlivecasino.com/" alt="Maryland Casino" />				  
-				  <area shape="rect" coords="610,165,740,260" href="http://mrellc.net/" alt="MRE" />
-				  <area shape="rect" coords="770,200,900,260" href="http://www.yelp.com/biz/banh-cuon-thang-long-falls-church" alt="Banh cuong thang long" />				  
+				  <area shape="rect" coords="578,82,657,152" href="https://www.newyorklife.com" alt="NY Life" />
+				  <area shape="rect" coords="578,9,717,68" href="http://www.pragmatics.com" alt="Pragmatics" />
+				  <area shape="rect" coords="736,15,890,65" href="http://www.vabadc.com" alt="VA BA DC" />
+				  <area shape="rect" coords="657,167,782,246" href="http://songquedeli.com" alt="Song Que Deli" />				  				  
+				  <area shape="rect" coords="9,167,278,248" href="http://www.massmutual.com/home?gclid=CPjqmLyVlK8CFUMTNAodYFJr0Q" alt="Mass Mutual" />
+				  <area shape="rect" coords="532,163,632,253" href="http://www.hotnjuicycrawfish.com/" alt="Hot and Juicy" />
+				  <area shape="rect" coords="290,160,390,254" href="http://edencenter.com/portfolio/vy-bistro/" alt="Vy Bistro" />
+				  <area shape="rect" coords="406,163,526,265" href="http://marylandlivecasino.com/" alt="Maryland Casino" />				  
+				  <area shape="rect" coords="790,151,898,200" href="http://www.yelp.com/biz/banh-cuon-thang-long-falls-church" alt="Banh cuong thang long" />				  
 				</map>
             </div>
             
