@@ -156,51 +156,26 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
 
 #block-system-user-menu h2{display: none;}
 
-.footer-container { background: #363636; margin-top: 40px; padding-top: 40px; overflow: hidden;}
+.footer-container { background: #363636; margin-top: 40px; padding-top: 40px; overflow: hidden; border-top: 1px solid #171717;}
+.footer-container a { color: #179BCD; text-decoration: none;}
+.footer-container a:hover, #footer-nav a:focus { color: #7EDAF8; }
 
-/***** Footer Nav *****/
-.footer-nav ul.menu li {
-  float: left;
-  margin: 0 10px 15px 0;
-  list-style: none;
-  list-style-image: none;
-  font-size: 1.083em;
-    font-weight: bold;
-    letter-spacing: 0.02em;
-}
+    /***** Footer Nav *****/
+   
+    /***** Connect *****/
+    .subscribe {display: block;} 
+    .subscribe li { list-style-type: none;}
+    .subscribe li a{ color: #CCCCCC; display: block; font-size: 14px; font-weight: bold; margin: 0 0 8px 0; padding: 4px 0 16px 44px;}
+    .subscribe li.facebook a { background : url('../images/icons png/facebook.png') no-repeat;}
+    .subscribe li.twitter a { background : url('../images/icons png/twitter.png') no-repeat;}
+    .subscribe li.myspace a { background : url('../images/icons png/myspace.png') no-repeat;}
+    .subscribe li.googleplus a { background : url('../images/icons png/googleplus.png') no-repeat;}
+    .subscribe li.delicious a { background : url('../images/icons png/delicious.png') no-repeat;}
+    .subscribe li.youtube a { background : url('../images/icons png/youtube.png') no-repeat;}
+    .subscribe li.rss a { background : url('../images/icons png/rss.png') no-repeat;}
 
-.footer-nav ul.menu li li {
-    float: none;
-    margin-right: 0px;
-    font-weight: normal;
-    width: 115px;
-    font-family: Arial,sans-serif;
-    font-size: .9em;
-    letter-spacing: 0.02em;
-    margin: 10px 15px 10px 0;
-    margin-bottom: 0px;
-    text-shadow: none;
-    text-transform: none;
-}
 
-.footer-nav ul li.expanded,
-.footer-nav ul li.leaf {
-  list-style-type: none;
-  list-style-image: none;
-}
-
-.footer-nav li a,
-.footer-utility li a {
-  color: #ffffff;
-}
-
-.footer-nav li li a {
-  color: #179BCD;
-}
-.footer-nav li li a:hover, #footer-nav li li a:focus {
-  color: #7EDAF8;
-}
-
+/********************************************************** Page Specific ***********************************************************************/
 
 /* Home page */
 #slider-group{}
