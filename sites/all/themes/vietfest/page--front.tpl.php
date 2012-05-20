@@ -39,7 +39,6 @@ include 'includes/top-nav.php';
 				<h2 class="title" id="page-title"><?php print $title;?></h2>
 				<?php endif;?>
 				<?php print render($page['content']);?>
-
 				<div class="box-6">
 					<h2>Location</h2>
 					<iframe width="450" height="409" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;safe=active&amp;ie=UTF8&amp;q=george+mason+university&amp;fb=1&amp;gl=us&amp;hq=george+mason+university&amp;hnear=0x89b645fed4c0731d:0xbf8c913c6a96c41e,Fairfax,+VA+22033&amp;cid=0,0,8480217559846663912&amp;t=m&amp;ll=38.831518,-77.304783&amp;spn=0.00585,0.009656&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>

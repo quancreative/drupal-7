@@ -29,6 +29,8 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
 #site-header{}
     h1#logo a{display: block; width: 407px; height: 89px; background: no-repeat; text-indent: -9999px;}
     #site-slogan{display: none;}
+    
+    #ticket-link{ display: block; width: 142px; height: 76px; float: right; margin-top: -10px; text-indent: -9999px; background: url(../images/ticket.gif) no-repeat;}
 
 /* Main menu */
 /*.main-menu-container #block-system-main-menu { margin-bottom: 0;}*/
@@ -227,3 +229,9 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
 #game-booth .booth-type-inner{border: 10px solid #EAD0FF;}
 #commercial-booth .booth-type-inner{border: 10px solid #B0D7EF;}
 #food-booth .booth-type-inner{border: 10px solid #EFBCB7;}
+
+/* Media page */
+.media-clip { position: relative; color: white; text-decoration: none;}
+.media-clip span{ position: absolute; display: block; width: 36px; height: 36px; text-indent: -9999px;}
+.media-img span {background: url(../images/media-page/magnify.png) no-repeat;}
+.media-vid span {background: url(../images/media-page/video.png) no-repeat;}
