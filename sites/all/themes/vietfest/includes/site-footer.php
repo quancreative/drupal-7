@@ -5,12 +5,12 @@
     }; ?>
     
     <div class="container-12 clearfix">
-        <div class="grid-4 footer-nav">
+        <div class="grid-3 footer-nav">
             <h3>Sitemap</h3>
             <?php print render($vietfest_menu_footer); ?>
         </div>
         
-        <div class="grid-2">
+        <div class="grid-3">
             <h3>Connect</h3>
             <ul class="subscribe">
               <li class="facebook">
@@ -31,6 +31,23 @@
               </li>
               -->
             </ul>
+        </div>
+        
+        <div class="box-6 box-last">
+            <h3>Our Friends</h3>
+            <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com/pages/VietFest-2012/304220736279418&amp;width=450&amp;connections=28&amp;stream=false&amp;header=false&amp;height=409" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:409px;" allowTransparency="true"></iframe>
+            <script>
+                ! function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if(!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");
+
+            </script>
         </div>
         
     </div>

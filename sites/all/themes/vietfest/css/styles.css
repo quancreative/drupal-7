@@ -9,7 +9,7 @@ h3{ color : #666;}
 ul.main-menu,
 ul.secondary-menu { display: block; margin: 0; padding: 0; }
 
-body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px no-repeat #f9f4ca;}
+body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px no-repeat #f9f4ca; }
 
 #site-header,
 #site-subheader,
@@ -49,24 +49,8 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
     margin: 0;
 }
     
-.main-menu-container ul li{
-    float: left;
-    font-size: 1.25em;
-    font-weight: 700;
-    list-style-image: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    text-transform: uppercase;
-}
-.main-menu-container li a {
-  color: #bf4b11;
-  display: block;
-  padding: 13px 17px;
-  text-align: center;
-  text-decoration: none;
-}
+.main-menu-container ul li{ float: left; font-size: 1.25em; font-weight: 700; list-style-image: none; list-style-type: none; margin: 0; padding: 0; position: relative; text-transform: uppercase; }
+.main-menu-container li a { color: #bf4b11;  display: block;  padding: 13px 17px;  text-align: center;  text-decoration: none; }
 
 .main-menu-container li.active-trail a,
 .main-menu-container li a.active,
@@ -91,47 +75,18 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
  *  Sub-menu
  */
 .main-menu-container li ul {
-    background: #FFFFFF;
-    margin: 0;
-    padding: 5px;
-    width: 200px;
-    height: auto;
-    position: absolute;
-    left: -999em;
-    z-index: 1000;
+    background: #FFFFFF;  margin: 0; padding: 5px; width: 200px; height: auto; position: absolute; left: -999em;  z-index: 1000;
     -webkit-box-shadow: 0 3px 10px rgba(0,0,0,.8);
     -moz-box-shadow: 0 3px 10px rgba(0,0,0,.8);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
-.main-menu-container ul li:hover > ul {
-    display: block;
-    left: 0;
-}
-.main-menu-container li ul li {
-    float: none;
-    font-size: 14px;
-    font-weight: 400;
-    list-style-image: none;
-    margin: 0;
-    padding: 0;
-    text-transform: none;
-}
+.main-menu-container ul li:hover > ul {    display: block;    left: 0;}
+.main-menu-container li ul li { float: none; font-size: 14px; font-weight: 400; list-style-image: none; margin: 0; padding: 0; text-transform: none;}
 .main-menu-container li ul li a, 
 .main-menu-container li.active-trail ul li a, 
-.main-menu-container li:hover ul li a {
-    border: medium none;
-    display: block;
-    padding: 9px 16px;
-    text-align: left;
-    color: #9f2806;
-}
+.main-menu-container li:hover ul li a { border: medium none;  display: block; padding: 9px 16px; text-align: left; color: #9f2806;}
 .main-menu-container li ul li a:hover,
-.main-menu-container li.active-trail ul li a.active {
-    background: #9f2806;
-    border: medium none;
-    color: #FFFFFF;
-    padding: 9px 16px;
-}
+.main-menu-container li.active-trail ul li a.active { background: #9f2806; border: medium none; color: #FFFFFF;  padding: 9px 16px; }
 
 /*
  * Main container
@@ -176,12 +131,12 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
     .subscribe li.youtube a { background : url('../images/icons png/youtube.png') no-repeat;}
     .subscribe li.rss a { background : url('../images/icons png/rss.png') no-repeat;}
 
-
 /********************************************************** Page Specific ***********************************************************************/
-
 /* Home page */
 #slider-group{}
 .page-node-1 #page-title {height: 65px; padding: 10px 0; background: url('../images/home/event_date.gif') center no-repeat; text-indent: -9999px;}
+.buy-ticket-btn{}
+
 
 /* About page */
 .staff-profile {border-bottom: 1px solid #EBEBEB; clear: both; margin-bottom: 20px;}
@@ -231,7 +186,8 @@ body{ text-align: center; background: url(../images/body_bkgd.jpg) center 30px n
 #food-booth .booth-type-inner{border: 10px solid #EFBCB7;}
 
 /* Media page */
-.media-clip { position: relative; color: white; text-decoration: none;}
-.media-clip span{ position: absolute; display: block; width: 36px; height: 36px; text-indent: -9999px;}
+.media-clip { position: relative; color: white; text-decoration: none; margin-bottom: 14px;}
+.media-clip span{ position: absolute; display: block; width: 36px; height: 36px; text-indent: -9999px; }
 .media-img span {background: url(../images/media-page/magnify.png) no-repeat;}
 .media-vid span {background: url(../images/media-page/video.png) no-repeat;}
+.media-web span {background: url(../images/media-page/webpage.png) no-repeat;}

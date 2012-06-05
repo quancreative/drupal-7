@@ -7,7 +7,9 @@
     </div>
     
     <div id="search-box" class="grid-6">
+        <!--
         <a id="ticket-link" href="<?php print $base_path;?>tickets" title="Purchase tickets">Buy Ticket</a>
+        -->
         <?php if ($page['search_box']): ?>
         <?php print render($page['search_box']); ?>
         <?php endif; ?>
